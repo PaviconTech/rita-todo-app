@@ -2,15 +2,15 @@ RITA TODO APP
 - A simple and functional Todo API built using FastAPI, SQLAlchemy, and SQLite for task management.
 PROJECT STRUCTURE
 rita-todo-app/
-│
-├── backend/
-│   ├── main.py           # Entry point for the FastAPI app
-│   ├── models.py         # SQLAlchemy models (database tables)
-│   ├── schemas.py        # Pydantic schemas (request/response validation)
-│   ├── database.py       # Database configuration and session management
-│   ├── crud.py           # Functions for interacting with the database (CRUD)
-│   ├── requirements.txt  # List of required Python packages
-│   └── README.md         # Documentation
+
+ backend/
+ main.py           # Entry point for the FastAPI app
+ models.py         # SQLAlchemy models (database tables)
+ schemas.py        # Pydantic schemas (request/response validation)
+ database.py       # Database configuration and session management
+ crud.py           # Functions for interacting with the database (CRUD)
+ requirements.txt  # List of required Python packages
+ README.md         # Documentation
 backend/
 MAIN.PY– Application Entry Point
 Initializes the FastAPI application.
